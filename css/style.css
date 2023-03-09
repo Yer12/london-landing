@@ -119,6 +119,29 @@ header .header-btn, footer .header-btn {
     color: #FFFFFF;
     margin-left: 10px;
 }
+.hero-list_item {
+    display: flex;
+    min-height: 34px;
+}
+.hero-list_item-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3px;
+}
+.hero-list_item-icon .line {
+    background: #6499FF;
+    width: 1px;
+    height: 100%;
+    margin-left: -1px;
+}
+.hero-list_item-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
 .hero-list_item:last-child .hero-list_item-icon .line {
     background: linear-gradient(180deg, #6499FF 0%, rgba(223, 221, 253, 0) 100%);
 }
@@ -346,3 +369,92 @@ footer {
         max-width: 100% !important;
     }
 }
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1000px) {
+  header, footer {
+    height: 90px;
+  }
+  .container {
+    padding: 0 80px;
+  }
+  .hero {
+    padding-top: 44px;
+    padding-bottom: 30px;
+    background: linear-gradient(167.68deg, #15006B 23.27%, #469BFF 91.04%);
+    position: relative;
+  }
+  .hero-img {
+    display: none;
+  }
+  .hero-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 80px;
+  }
+  .hero-list {
+    max-width: 700px;
+  }
+  .hero-list_item {
+    min-height: 50px;
+  }
+  .hero-list_item-icon {
+    margin-top: 6px;
+  }
+  .hero-list_item-text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    margin-left: 15px;
+  }
+  .hero-card {
+    max-width: 500px;
+  }
+  .insights-container {
+    display: none;
+  }
+  .main-inbody_card {
+    max-width: 700px;
+  }
+  .main-advantages {
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+  .main-advantages_card-img {
+    min-height: 90px;
+    min-width: 120px;
+    max-width: 120px;
+  }
+  .main-info {
+    max-width: 1200px;
+    margin: 50px auto;
+    text-align: center;
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+  }
+  .footer-card {
+    display: inline-flex;
+    border-radius: 25px;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .footer-card_img {
+    width: 50%;
+  }
+  .footer-card_img img {
+    border-radius: 25px;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  .footer-card_content {
+    padding: 100px 40px;
+  }
+
+}
+
