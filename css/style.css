@@ -82,6 +82,9 @@ header .header-btn, footer .header-btn {
 .hero-img {
     width: 100%;
 }
+.hero-img--desktop {
+    display: none;
+}
 .hero-img img {
     width: 100%;
     height: 100%;
@@ -348,28 +351,6 @@ footer {
     width: 100%;
 }
 
-
-
-#CybotCookiebotDialog {
-    bottom: 0 !important;
-    transform: translate(-50%,0%) !important;
-    width: 100% !important;
-    min-height: 400px;
-    max-height: 90vh;
-    border-radius: 0;
-    top: initial !important;
-}
-@media screen and (min-width: 1280px) {
-    #CybotCookiebotDialog {
-        left: 0;
-        max-height: 40vh;
-        top: initial !important;
-        bottom: 0 !important;
-        transform: translate(0%, 0%);
-        max-width: 100% !important;
-    }
-}
-
 /* Desktops and laptops ----------- */
 @media only screen and (min-width: 1000px) {
   header, footer {
@@ -386,6 +367,21 @@ footer {
   }
   .hero-img {
     display: none;
+  }
+  .hero-img--desktop {
+    display: block;
+    width: 50%;
+  }
+  .hero-img--desktop img {
+    width: 100%;
+  }
+  .hero-section {
+    width: 49%;
+  }
+  .hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
   .hero-title {
     font-weight: 700;
@@ -410,11 +406,92 @@ footer {
   .hero-card {
     max-width: 500px;
   }
+  .hero-card_inbody .hero-card_market {
+    display: flex;
+  }
   .insights-container {
-    display: none;
+    display: block;
+  }
+  .insights-subcontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .main-title {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+  }
+  .main-subtitle {
+    width: 50%;
+    font-size: 20px;
+  }
+  .inbody-container {
+    /*display: flex;*/
+    justify-content: space-between;
+  }
+  .main-service {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main-service_item {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .main-service_item-icon {
+    width: 100px;
+  }
+  .main-service_item-text {
+    text-align: center;
+  }
+  .main-img {
+    width: 400px;
+    height: 210px;
+  }
+  .main-img img:first-child {
+    width: 140px;
+  }
+  .main-img img:last-child {
+    width: 190px;
+    margin-top: -26px;
+  }
+
+  .inbody-subcontainer {
+    display: flex;
+    justify-content: space-between;
   }
   .main-inbody_card {
-    max-width: 700px;
+    max-width: 48%;
+    min-height: initial;
+    height: 270px;
+    padding-bottom: 15px;
+  }
+  .main-inbody_card-img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    object-position: 0px -40px;
+  }
+  .main-inbody-icons {
+    width: 55%;
+  }
+  .main-inbody_card-text {
+    margin-top: 0;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  .hero-card_inbody {
+    height: 250px;
+    width: 45%;
+  }
+  .hero-card_inbody .hero-card_market {
+    display: flex;
+  }
+  .hero-card_title {
+    font-size: 23px;
+    line-height: 40px;
   }
   .main-advantages {
     max-width: 1000px;
