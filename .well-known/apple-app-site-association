@@ -1,0 +1,23 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "77Z22JCT9H.app.1fit.helsi",
+        "paths": [
+          "NOT /go",
+          "NOT /corporate/*",
+          "/*"
+        ]
+      },
+      {
+        "appID": "77Z22JCT9H.app.1fit.helsi.in-house",
+        "paths": [
+          "NOT /go",
+          "NOT /corporate/*",
+          "/*"
+        ]
+      }
+    ]
+  }
+}
