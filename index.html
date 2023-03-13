@@ -8,15 +8,14 @@
     <title>helsi.app</title>
     <link rel="icon" type="image/x-icon" href="img/favicon.png" />
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.cookiehub.eu/c2/613ac463.js"></script>
     <script type="text/javascript">
-        var cpm = {};
-        (function(h,u,b){
-            var d=h.getElementsByTagName("script")[0],e=h.createElement("script");
-            e.async=true;e.src='https://cdn.cookiehub.eu/c2/d6170687.js';
-            e.onload=function(){u.cookiehub.load(b);};
-            d.parentNode.insertBefore(e,d);
-        })(document,window,cpm);
+        document.addEventListener("DOMContentLoaded", function(event) {
+            var cpm = {};
+            window.cookiehub.load(cpm);
+        });
     </script>
+
 </head>
 <body>
     <header>
