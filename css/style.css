@@ -263,6 +263,7 @@ header .header-btn, footer .header-btn {
 .main-inbody_card-container {
     padding-left: 23px;
     padding-right: 23px;
+    padding-bottom: 23px;
 }
 .main-inbody_card-text {
     margin-top: 10px;
