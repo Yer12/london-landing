@@ -536,3 +536,15 @@ footer {
 
 }
 
+@media only screen and (max-width: 1440px) {
+  .container {
+    padding: 0 150px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container {
+    padding: 0 24px;
+  }
+}
+
