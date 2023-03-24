@@ -4,9 +4,8 @@
     "target": {
       "namespace": "android_app",
       "package_name": "app.helsi",
-      "sha256_cert_fingerprints": [
-        "89:32:5A:84:92:33:AC:1A:C6:C0:27:63:48:E1:18:25:40:1A:03:AB:56:11:28:06:6E:59:25:B1:EB:00:C0:61"
-      ]
+      "sha256_cert_fingerprints":
+      ["48:EE:06:8D:5A:8C:82:D6:9A:33:FD:06:7E:55:6B:2D:04:7E:F9:68:6E:A7:3C:81:2C:82:24:03:B5:E1:2C:12"]
     }
   },
   {
@@ -17,7 +16,7 @@
       "sha256_cert_fingerprints": [
         "3D:53:BF:F0:56:DA:67:3D:52:0B:9D:A7:0E:2E:C2:44:FD:20:37:C4:E4:86:E1:76:B2:67:22:0D:E8:5E:0E:12",
         "E3:CB:59:02:D8:87:F0:7E:F8:FE:7A:3C:DC:4A:A8:A9:4F:F5:69:7E:0F:36:8A:5B:D6:90:29:C4:A0:D1:08:5F",
-        "D5:1F:D2:F8:CB:6F:E7:20:C0:6C:C2:84:6D:82:9B:63:69:8C:C3:B8:B9:CD:DA:62:CA:0A:5B:C0:45:93:5B:69"
+        "D5:1F:D2:F8:CB:6F:E7:20:C0:6C:C2:84:6D:82:9B:63:69:8C:C3:B8:B9:компакт_диск:DA:62:CA:0A:5B:C0:45:93:5B:69"
       ]
     }
   }
