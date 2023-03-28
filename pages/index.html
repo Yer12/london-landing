@@ -11,30 +11,9 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="apple-app-site-association" href="https://helsi.app/.well-known/apple-app-site-association">
     <script src="https://cdn.cookiehub.eu/c2/613ac463.js"></script>
-
-    <script src="https://cookiehub.net/cc/613ac463.js"></script>
-    <script>
-        // Wait for CookieHub to become available
-        var cookieHubReadyCheck = setInterval(function() {
-            if (typeof CookieHub === "object") {
-                clearInterval(cookieHubReadyCheck);
-                // Wait for user to accept the "analytics" category (or any other categories that you might have)
-                CookieHub.onAccept("analytics", function() {
-                    // Load Intercom scripts
-                    var intercomScript = document.createElement("script");
-                    intercomScript.src = "https://widget.intercom.io/widget/iu8grn4d";
-                    intercomScript.async = true;
-                    document.body.appendChild(intercomScript);
-                });
-            }
-        }, 100);
-    </script>
-
     <script type="text/javascript">
         document.addEventListener("DOMContentLoaded", function(event) {
-            var cpm = {
-                "denyAllCookies": true
-            };
+            var cpm = {};
             window.cookiehub.load(cpm);
         });
     </script>
