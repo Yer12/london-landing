@@ -3,17 +3,19 @@
     "apps": [],
     "details": [
       {
-        "appID": "77Z22JCT9H.app.1fit.helsi",
+        "appID": "77Z22JCT9H.team.codebusters.1fit",
         "paths": [
           "NOT /go",
+          "NOT /2gis",
           "NOT /corporate/*",
           "/*"
         ]
       },
       {
-        "appID": "77Z22JCT9H.app.1fit.helsi.in-house",
+        "appID": "77Z22JCT9H.team.codebusters.1fit.in-house",
         "paths": [
           "NOT /go",
+          "NOT /2gis",
           "NOT /corporate/*",
           "/*"
         ]
