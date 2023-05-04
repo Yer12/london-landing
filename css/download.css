@@ -108,3 +108,9 @@ html, body {
     height: 100%;
   }
 }
+
+@media screen and (max-height: 670px) {
+  .download {
+    min-height: 100vh;
+  }
+}
